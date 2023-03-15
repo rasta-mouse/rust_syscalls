@@ -2,7 +2,7 @@
 
 Single stub direct and indirect syscalling with runtime SSN resolving for Windows.  Forked from [https://github.com/janoglezcampos/rust_syscalls](https://github.com/janoglezcampos/rust_syscalls).
 
----
+
 
 ## Features
 
@@ -12,7 +12,7 @@ Single stub direct and indirect syscalling with runtime SSN resolving for Window
 * x86_64, WOW64 and x86 native support
 * Designed to allow the implementation of custom SSN fetching methods
   
----
+
 
 ## Usage
 
