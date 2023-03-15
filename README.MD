@@ -34,14 +34,14 @@ rust_syscalls = { git = "https://github.com/rasta-mouse/rust_syscalls" }
 
 ```toml
 [dependencies]
-rust_syscalls = { path/git = "", features = ["_INDIRECT_"]}`
+rust_syscalls = { path/git = "", features = ["_INDIRECT_"]}
 ```
 
 or
 
 ```toml
 [dependencies]
-rust_syscalls = { path/git = "", features = ["_DIRECT_"]}`
+rust_syscalls = { path/git = "", features = ["_DIRECT_"]}
 ```
 
 3. Import
@@ -54,7 +54,7 @@ use rust_syscalls::syscall;
 4.  Syscall
 
    
-```toml
+```rust
 syscall!("func", arg);
 ```
 
