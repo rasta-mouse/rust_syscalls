@@ -2,13 +2,19 @@
 name = "rust_syscalls"
 version = "0.1.0"
 edition = "2021"
-authors = ["Yxel <https://github.com/janoglezcampos>"]
-repository = "https://github.com/janoglezcampos/rust_syscalls"
+authors = ["Yxel <https://github.com/janoglezcampos>", "Rasta Mouse <https://twitter.com/_RastaMouse>"]
+repository = "https://github.com/rasta-mouse/rust_syscalls"
 
 [features]
 _INDIRECT_ = []
 _DIRECT_ = []
 
-[dependencies]
-winapi = {version = "0.3.9", features = ["ntdef", "winnt"]}
-ntapi = "0.3.7"
+[dependencies.ntapi]
+version = "0.4.0"
+
+[dependencies.winapi]
+version = "0.3.9"
+features = [
+    "ntdef",
+    "winnt"
+]
